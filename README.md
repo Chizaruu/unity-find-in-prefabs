@@ -1,55 +1,54 @@
-# unity-find-in-prefabs
+#unity-find-in-prefabs
 
 ## Features
 
-查找C#脚本被哪些prefab文件引用，类似Rider的功能。
+Find which prefab files are referenced by C# scripts, similar to the function of Rider.
 
 ## Release Notes
 
 ### 1.0.9
 
-* 支持从unity场景文件查找C#脚本引用。
+* Support for finding C# script references from unity scene files.
 
 ### 1.0.8
 
-* 每条结果增加一个在侧边栏中显示按钮。
+* Add a display button in the sidebar for each result.
 
 ### 1.0.7
 
-* 右键菜单只有在C#文件才出现。
+* The right-click menu only appears in C# files.
 
 ### 1.0.6
 
-* 每条结果增加一个预览文件按钮。
+* Add a preview file button for each result.
 
 ### 1.0.5
 
-* `prefab`文件增删改之后自动更新缓存，下次查找直接生效。
+* Automatically update the cache after adding, deleting or modifying the `prefab` file, and the next search will take effect directly.
 
 ### 1.0.4
 
-* 选择查找结果的prefab文件将复制文件名到剪贴板。
-* 构建缓存期间在状态栏可以看到提示。
-* 增加文件title右键菜单。
+* Selecting the prefab file of the search result will copy the file name to the clipboard.
+* You can see a hint in the status bar during the build cache.
+* Add the right-click menu of the file title.
 
 ### 1.0.3
 
-* 使用`Quick Pick`来展示查找结果，然后可以方便打开查找到的某个prefab文件。
+* Use `Quick Pick` to display the search results, and then you can easily open a found prefab file.
 
 ### 1.0.2
 
-* 首次Find的时候建立结果缓存，避免每次都全量文件查找。
+* Create a result cache when you find for the first time, to avoid searching for all files every time.
 
 ## 1.0.1
 
-* 即使`files.exclude`包含`prefab`文件，现在也能正确查找到了。
+* Even if `files.exclude` contains `prefab` files, they are now found correctly.
 
 ## 1.0.0
 
-* 支持查找C#脚本被哪些prefab文件引用。
+* Support to find which prefab files are referenced by C# scripts.
 
 ## Road Map
 
-* 支持查找其他被引用的文件类型。
-* 选择查找结果直接打开Unity。
-* ...
+* Support for finding other referenced file types.
+* Select the search result to open Unity directly.
